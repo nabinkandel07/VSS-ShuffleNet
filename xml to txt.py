@@ -37,8 +37,8 @@ def convert_xml_to_yolo(xml_file, classes, output_folder):
 classes = ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']  # Add your own class names
 
 # Path to the directory containing XML files
-xml_dir = 'D:/Download/NEU-Check13/NEU-DET/ANNOTATIONS'
-output_dir = 'D:/Download/NEU-Check13/NEU-DET/IMAGES'  # Output directory for YOLO format files
+xml_dir = 'NEU-DET/ANNOTATIONS'
+output_dir = 'NEU-DET/IMAGES'  # Output directory for YOLO format files
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
