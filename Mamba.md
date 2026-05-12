@@ -93,7 +93,6 @@ cd ultralytics/nn/AddModules/selective_scan
 # Compile and install
 python setup.py install
 ```
-<img width="1234" height="54" alt="image" src="https://github.com/user-attachments/assets/de34a789-956d-4878-b30f-a2200de7aaa9" />
 
 ---
 
