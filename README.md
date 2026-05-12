@@ -322,8 +322,8 @@ If you find this work useful, please cite:
 ```bibtex
 @article{wu2026vssshufflenet,
   title={VSS-ShuffleNet: A Lightweight YOLOv8-Based Framework for Real-Time Steel Surface Defect Detection},
-  author={Wu, Ping and Kandel, Nabin},
-  journal={Engineering Applications of Artificial Intelligence},
+  author={...........},
+  journal={.......},
   note={Under review},
   year={2026}
 }
