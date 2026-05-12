@@ -125,7 +125,7 @@ You can see the Mamba.md files
 3. Place annotations in `train/labels/` and `valid/labels/.`
 
 ### GC10-DET Dataset
-1. Download from [GC10-DET]([https://github.com/lvxiaoming2019/GC10-DET](https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets))
+1. Download from [GC10-DET](https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets)
 2.  Place images in `train/images/` and `valid/images/.`
 3.  Place annotations in `train/labels/` and `valid/labels/.`
 4.  Convert XML annotations to YOLO format using `xml_to_txt.py.`
