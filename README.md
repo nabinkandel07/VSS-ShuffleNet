@@ -145,6 +145,7 @@ names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 
 
 ### Dataset Configuration for GC10-DET (`data.yaml`)
 ```yaml
+path: ./
 train: train/images
 val: valid/images
 
