@@ -121,22 +121,34 @@ albumentations>=1.3.0
 
 ### GC10-DET Dataset
 1. Download from [GC10-DET](https://github.com/lvxiaoming2019/GC10-DET)
-2. Convert XML annotations to YOLO format using `xml_to_txt.py`
+2.  Place images in `train/images/` and `valid/images/`
+3.  Place annotations in `train/labels/` and `valid/labels/`
+4.  Convert XML annotations to YOLO format using `xml_to_txt.py.`
+   
 
-### Dataset Configuration (`data.yaml`)
+### Dataset Configuration for NEU-DET (`data.yaml`)
 
 ```yaml
 path: ./
 train: train/images
 val: valid/images
-test: test/images
 
 nc: 6  # number of classes (NEU-DET)
 names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
 ```
 
----
+### Dataset Configuration for GC10-DET (`data.yaml`)
+train: train/images
+val: valid/images
 
+# Number of classes (corrected to match your dataset)
+nc: 10
+
+# Class names (replace with your own class names)
+names: ['punching', 'weld line', 'crescent gap', 'water spot', 'oil spot', 'silk spot', 'inclusion', 'rolled pit', 'crease', 'waist folding' ]
+
+```
+---
 ## 🚀 Training
 
 ### Train VSS-ShuffleNet on NEU-DET
