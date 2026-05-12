@@ -6,7 +6,7 @@
 [![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv8-blue)](https://github.com/ultralytics/ultralytics)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-> **Note:** This paper is currently under review at **Engineering Applications of Artificial Intelligence (EAAI)**. The code will be fully released upon paper acceptance.
+> **Note:** This paper is currently under review. The code will be fully released upon paper acceptance.
 
 ---
 
@@ -108,6 +108,14 @@ ultralytics>=8.0.0
 thop>=0.1.1
 pillow>=9.4.0
 albumentations>=1.3.0
+einops>=0.8.1
+mamba
+```
+
+## How to install Mamba
+
+```
+You can see the mamba.txt files
 ```
 
 ---
