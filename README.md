@@ -121,14 +121,15 @@ You can see the Mamba.md files
 
 ### NEU-DET Dataset
 1. Download from [NEU-DET](http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/index.htm)
-2. Place images in `train/images/` and `valid/images/.`
-3. Place annotations in `train/labels/` and `valid/labels/.`
+2. Place images in `IMAGES`
+3. Place annotations in `ANNOTATIONS`
 
 ### GC10-DET Dataset
 1. Download from [GC10-DET](https://github.com/lvxiaoming2019/GC10-DET-Metallic-Surface-Defect-Datasets)
-2.  Place images in `train/images/` and `valid/images/.`
-3.  Place annotations in `train/labels/` and `valid/labels/.`
+2.  Place images in `IMAGES`
+3.  Place annotations in `ANNOTATIONS`
 4.  Convert XML annotations to YOLO format using `xml_to_txt.py.`
+5.  split the images and lables files in train, test, and valid using `yolo_slice_sort.py.`
    
 
 ### Dataset Configuration for NEU-DET (`data.yaml`)
