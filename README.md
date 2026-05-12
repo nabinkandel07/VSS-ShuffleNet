@@ -115,7 +115,7 @@ mamba
 ## How to install Mamba
 
 ```
-You can see the mamba.txt files
+You can see the Mamba.md files
 ```
 
 ---
