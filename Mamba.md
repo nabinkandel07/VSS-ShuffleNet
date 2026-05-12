@@ -93,6 +93,7 @@ cd ultralytics/nn/AddModules/selective_scan
 # Compile and install
 python setup.py install
 ```
+<img width="672" height="343" alt="image" src="https://github.com/user-attachments/assets/d76b4fe7-2e68-485d-aaa5-7f8838468e33" />
 
 ---
 
@@ -102,8 +103,6 @@ Now, add the Mamba-YOLO modules to your Ultralytics codebase.
 ### 4.1 Create `mamba_yolo.py`
 1.  Create the file `ultralytics/nn/AddModules/mamba_yolo.py`.
 2.  Paste your Mamba-YOLO model code into this file.
-
-<img width="672" height="343" alt="image" src="https://github.com/user-attachments/assets/d76b4fe7-2e68-485d-aaa5-7f8838468e33" />
 
 
 ### 4.2 Update `__init__.py`
