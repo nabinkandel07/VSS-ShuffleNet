@@ -124,13 +124,13 @@ You can see the Mamba.md files
 
 ### NEU-DET Dataset
 1. Download from [NEU-DET](http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/index.htm)
-2. Place images in `train/images/` and `valid/images/`
-3. Place annotations in `train/labels/` and `valid/labels/`
+2. Place images in `train/images/` and `valid/images/.`
+3. Place annotations in `train/labels/` and `valid/labels/.`
 
 ### GC10-DET Dataset
 1. Download from [GC10-DET](https://github.com/lvxiaoming2019/GC10-DET)
-2.  Place images in `train/images/` and `valid/images/`
-3.  Place annotations in `train/labels/` and `valid/labels/`
+2.  Place images in `train/images/` and `valid/images/.`
+3.  Place annotations in `train/labels/` and `valid/labels/.`
 4.  Convert XML annotations to YOLO format using `xml_to_txt.py.`
    
 
@@ -146,16 +146,14 @@ names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 
 ```
 
 ### Dataset Configuration for GC10-DET (`data.yaml`)
+```yaml
 train: train/images
 val: valid/images
 
-# Number of classes (corrected to match your dataset)
-nc: 10
-
-# Class names (replace with your own class names)
+nc: 10 # Number of classes (GC10-DET)
 names: ['punching', 'weld line', 'crescent gap', 'water spot', 'oil spot', 'silk spot', 'inclusion', 'rolled pit', 'crease', 'waist folding' ]
-
 ```
+
 ---
 ## 🚀 Training
 
