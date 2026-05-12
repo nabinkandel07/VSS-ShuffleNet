@@ -29,9 +29,6 @@ To address these challenges, this paper proposes **VSS-ShuffleNet**, a lightweig
 | Configuration | mAP@0.5 | mAP@0.5:0.95 | Params (M) | FLOPs (G) | FPS |
 |---------------|---------|--------------|------------|-----------|-----|
 | YOLOv8n (Baseline) | 79.0% | 45.4% | 3.0 | 8.1 | 101 |
-| + Preprocessing | 88.7% | 48.6% | 3.0 | 8.1 | 178.6 |
-| + ShuffleNet V2 | 91.4% | 52.1% | 3.8 | 7.5 | 200.0 |
-| + VSS Block | 92.7% | 53.8% | 3.5 | 7.6 | 230.3 |
 | **VSS-ShuffleNet (Full)** | **94.6%** | **67.8%** | **9.7** | **8.5** | **147** |
 
 ### GC10-DET Dataset (10 classes)
@@ -287,29 +284,6 @@ FPS: 147 (RTX 4090D)
 | `yolo_slice_sort.py` | Dataset splitting utility |
 
 ---
-
-## 🔬 Ablation Studies
-
-### Component Contribution (NEU-DET)
-
-| Configuration | mAP@0.5 | Δ |
-|---------------|---------|---|
-| Baseline (YOLOv8n) | 79.0% | - |
-| + Preprocessing | 88.7% | +9.7% |
-| + ShuffleNet V2 | 91.4% | +2.7% |
-| + VSS Block | 92.7% | +1.3% |
-| **Full Model** | **94.6%** | **+1.9%** |
-
-### VSS Block Placement Analysis
-
-| Placement | mAP@0.5 |
-|-----------|---------|
-| No VSS Block | 79.0% |
-| Backbone Stage 2 | 81.5% |
-| Backbone Stage 4 | 83.2% |
-| Neck Entry | 84.5% |
-| Before Detection Head | 84.1% |
-| **Neck Middle (Ours)** | **85.2%** |
 
 ---
 
