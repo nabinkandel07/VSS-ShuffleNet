@@ -8,15 +8,15 @@ import shutil
 #
 
 # Set the path to the folder containing images and annotations
-data_folder = "D:/Download/NEU-Check13/NEU-DET/IMAGES"
+data_folder = "NEU-DET/IMAGES"
 
 # Set the path to the output folders
-train_folder = "D:/Download/NEU-Check13/train"
-val_folder = "D:/Download/NEU-Check13/valid"
+train_folder = "NEU-DET/train"
+val_folder = "/NEU-DET/valid"
 
 # Set the split ratios
-train_ratio = 0.7
-val_ratio = 0.3
+train_ratio = 0.8
+val_ratio = 0.2
 
 # Set the file extension
 file_extension = ".jpg"  # Change this to ".jpg" or anything else if needed
