@@ -22,31 +22,29 @@ To address these challenges, this paper proposes **VSS-ShuffleNet**, a lightweig
 
 ---
 
-## 🏆 Results
+### Data Availability
 
-### NEU-DET Dataset (6 classes)
+Both datasets are publicly available from their respective official sources and should be obtained directly from the original dataset providers in accordance with their licenses and usage policies.
 
-| Configuration | mAP@0.5 | mAP@0.5:0.95 | Params (M) | FLOPs (G) | FPS |
-|---------------|---------|--------------|------------|-----------|-----|
-| YOLOv8n (Baseline with out preprocessing) | 79.0% | 45.0% | 3.0 | 8.1 | 101 |
-| YOLOv8n (Baseline with preprocessing) | 88.7% | 61.4% | 3.1 | 8.1 | 178.6 |
-| **VSS-ShuffleNet (Full)** | **94.6%** | **67.8%** | **9.7** | **8.5** | **147** |
-
-### GC10-DET Dataset (10 classes)
-
-| Configuration | mAP@0.5 | mAP@0.5:0.95 | Params (M) | FLOPs (G) | FPS |
-|---------------|---------|--------------|------------|-----------|-----|
-| YOLOv8n (Baseline) | 68.7% | 35.5% | 3.0 | 8.1 | 101 |
-| **VSS-ShuffleNet (Ours)** | **76.1%** | **38.0%** | **9.7** | **8.5** | **147** |
-
-### Key Improvements
-
-- **+5.9% mAP** over YOLOv8 on NEU-DET
-- **+7.4% mAP** over YOLOv8 on GC10-DET
-- **46.7% parameter reduction** compared to YOLOv8m
-- **Real-time inference** at 147 FPS on NVIDIA RTX 4090D
+The processed dataset splits, training configurations, model weights, and source code used in this study will be made publicly available upon acceptance of the paper.
 
 ---
+
+## Reproducibility
+
+To ensure reproducibility, the following materials will be released after publication:
+
+* Source code 
+* Model configuration files
+* Training and evaluation scripts
+* Pretrained model weights
+* Dataset split files
+* Detailed experimental settings
+
+The repository will be updated with the public release link after the manuscript is accepted.
+The complete training configuration, model architecture files, and pretrained weights are provided in this repository.
+
+
 
 ## 📁 Repository Structure
 
