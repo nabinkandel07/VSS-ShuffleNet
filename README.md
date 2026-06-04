@@ -1,4 +1,4 @@
-# VSS-ShuffleNet: A Lightweight YOLOv8-Based Framework for Real-Time Steel Surface Defect Detection
+# VSS-ShuffleNet
 
 [![Paper](https://img.shields.io/badge/Paper-EAAI-blue)](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)](https://www.python.org/)
