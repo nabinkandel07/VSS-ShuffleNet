@@ -238,10 +238,9 @@ Training metrics are automatically saved in `runs/train/vss_shufflenet/`, includ
 
 ## 🎯 Model Architecture
 
+<img width="1640" height="685" alt="Proposed (1)" src="https://github.com/user-attachments/assets/0e62a8b6-807a-4e68-a6f9-ae130d8808b3" />
+
 ```
-<img width="1640" height="685" alt="image" src="https://github.com/user-attachments/assets/06ff4c75-95ad-491e-8e7e-5dcd37d88087" />
-
-
 Total Parameters: 9.7M
 FLOPs: 8.5G
 FPS: 147 (RTX 4090D)
