@@ -239,29 +239,8 @@ Training metrics are automatically saved in `runs/train/vss_shufflenet/`, includ
 ## 🎯 Model Architecture
 
 ```
-VSS-ShuffleNet
-│
-├── Input (640×640×3)
-│
-├── Preprocessing (Adaptive Gaussian)
-│   ├── Blur Assessment (Variance of Laplacian)
-│   ├── Conditional Smoothing
-│   ├── Unsharp Masking
-│   └── Noise Suppression
-│
-├── Backbone: ShuffleNet V2
-│   ├── Stage 1: 48 channels
-│   ├── Stage 2: 96 channels (VSS Block)
-│   ├── Stage 3: 192 channels (VSS Block)
-│   └── Stage 4: 384 channels (VSS Block)
-│
-├── Neck: Parallel Multi-Branch
-│   ├── Upsampling + Concatenation
-│   └── VSS Block × 3
-│
-└── Detection Head (YOLOv8)
-    ├── Bounding Box Regression
-    └── Classification (6/10 classes)
+<img width="1640" height="685" alt="image" src="https://github.com/user-attachments/assets/06ff4c75-95ad-491e-8e7e-5dcd37d88087" />
+
 
 Total Parameters: 9.7M
 FLOPs: 8.5G
@@ -307,8 +286,6 @@ If you find this work useful, please cite:
 ## 📧 Contact
 
 | Author | Email |
-|--------|-------|
-| Ping Wu (Corresponding Author) | pingwu@zstu.edu.cn |
 | Nabin Kandel | nabinkandel60@gmail.com |
 
 ---
@@ -316,18 +293,6 @@ If you find this work useful, please cite:
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-This work was supported by:
-- "Pioneer" and "Leading Goose" R&D Program of Zhejiang (Grant 2026C02A3004)
-- National Natural Science Foundation of China (Grant 62573387)
-- Natural Science Foundation of Zhejiang Province (Grant LY24F030004)
-- Fundamental Research Funds of Zhejiang Sci-Tech University (25222139-Y)
-
----
 
 ## ⭐ Star History
 
